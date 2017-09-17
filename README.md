@@ -14,7 +14,7 @@
 Gitが入っていれば下記のコマンドでDLできます。あなたなら、できるはずです。（？）
 
 ```bash
-$ git clone https://github.com/
+$ git clone https://github.com/minori-sys/example-csvreader-php.git
 ```
 
 # Usage
@@ -33,6 +33,7 @@ $  php example.php
 ## で？仕様は？
 
 このシステムを作ってしまった経緯や仕様は、前述ですが、以下の記事をご参照ください。
+[最強のCSVファイルの読み込み（自称）～PHP編～](http://)
 
 はい、そこ。宣伝とか言わない。
 あとはコード内のコメントとか見て頑張って☆
@@ -48,10 +49,13 @@ $  php example.php
 CSVファイルの項目が変更されてもconfigファイルを変更するのみでOKです。
 変更箇所は以下の通り。
 
-headers= key:TBのフィールド名 val:CSVの項目名（1行目）
+| headers                           |
+|:-----------|---------------------:|
+| key        | TBのフィールド名     |
+| val        | CSVの項目名（1行目） |
+
 
 こちらをあなたのシステムに合わせて、あなた色に（以下略）
-
 CSVファイルのパスは、そのまんま「path」を変えてください。
 
 ## 最後にアレだ
