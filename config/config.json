@@ -1,0 +1,9 @@
+{
+	"path": "csv/",
+	"headers": {
+		"name": "Name",
+		"email": "Email",
+    	"city": "City",
+    	"date": "Date"
+	}
+}
